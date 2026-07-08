@@ -1,0 +1,17 @@
+# Prebuilt package is distributed via GitHub Releases, not committed
+*.zip
+
+# Python / build artifacts
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+*.egg-info/
+
+# runtime state
+overnight_state.json
+
+# source kept private
+src/
+*.py
