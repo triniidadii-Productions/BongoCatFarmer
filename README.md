@@ -109,3 +109,9 @@ for the single-player Bongo Cat application. Use it at your own discretion.
 ---
 
 <p align="center"><i>Made by Triniidadii Productions for the Bongo Cat community.</i></p>
+
+<!--
+Yo... why are you all the way down here, bro?
+Ain't shit in here. You GitHub lurkers really do read EVERYTHING lmfao.
+Since you made it this far: drink some water, collect your chests, and act like you never saw this.
+-->
