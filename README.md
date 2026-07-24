@@ -1,60 +1,117 @@
-<h1 align="center">🥁 Bongo Cat Farmer</h1>
-<p align="center"><b>by TRINIIDADII PRODUCTIONS</b> · <i>black &amp; gold edition</i></p>
+<p align="center">
+  <img src="assets/auto-bongo-v2-icon.png" width="220" alt="AUTO BONGO V2 icon">
+</p>
+
+<h1 align="center">AUTO BONGO V2</h1>
+<p align="center"><b>Beat Spam · Auto Chest Collector · Emoji Spammer</b></p>
+<p align="center">by <b>Triniidadii Productions</b></p>
 
 <p align="center">
-  <a href="https://open.spotify.com/artist/4oLdOm6VP4eyo40CIguViO">🎵 Spotify</a> ·
-  Discord: <b>Triniidadii_Productions</b>
+  <a href="https://open.spotify.com/artist/4oLdOm6VP4eyo40CIguViO">Spotify</a> ·
+  Discord: <b>Triniidadii_productions</b>
 </p>
 
 ---
 
-Auto-farms bongo taps in the Steam **Bongo Cat** app using a **driver-level virtual Xbox controller** — so the game counts every tap as if a real controller were plugged in.
+AUTO BONGO V2 is a Windows automation controller for the Steam **Bongo Cat**
+application. It combines high-speed controller beats with cursorless chest and
+emoji automation in a compact, heavily customizable desktop interface.
 
-## ⬇️ Download
+## Download
 
-**[→ Grab the latest release here](../../releases/latest)** — download `BongoCatFarmer.zip`, unzip it, and follow the setup below.
+**[Download the newest Windows release](../../releases/latest)**
 
-## 🚀 Setup (one time)
+Download `AUTO-BONGO-V2.0.0-Windows-x64.zip`, verify the accompanying SHA-256
+file if desired, extract the ZIP, and read `README.txt` before installation.
 
-1. Unzip `BongoCatFarmer.zip`.
-2. **Right-click `Install.bat` → Run as administrator.**
-3. Click **Yes** on the prompt.
-   *(If Windows shows a blue "protected your PC" screen → **More info → Run anyway**. It's a false positive — see below.)*
-4. Three buttons appear on your Desktop. Done.
+## Features
 
-## 🖱️ How to use
+- **Beat Spam** uses the proper ViGEm virtual Xbox controller layer.
+- **Auto Collect** reads Bongo Cat's real chest-ready state every 60 seconds.
+- **Emoji Spam** invokes equipped reusable emotes directly inside the game.
+- **Cursorless automation:** Auto Collect and Emoji Spam never move the Windows
+  mouse or steal focus from another application.
+- **Full and compact layouts** with persistent preferences.
+- **68 themes** across Signature, Pastel, Grunge, Digital, and Memes.
+- Department-specific shapes, typography, artwork, and ambient animation.
+- Four-times supersampled UI surfaces for clean anti-aliased curves.
+- Adjustable window transparency.
+- One-click Discord copy and Spotify access.
 
-| Desktop button | What it does |
-| --- | --- |
-| **▶ Start Bongo Farming** | Opens Bongo Cat and starts farming automatically. |
-| **🌙 Bongo Overnight ON** | Farms all night on lowest power — won't sleep or lock. |
-| **☀️ Bongo Overnight OFF** | Stops farming and restores all your settings. |
+## In-app preview
 
-Inside the app: **F8** = start/stop · **—** = hide to system tray · **✕** = close · drag the header to move it.
+<p align="center">
+  <img src="assets/screenshots/signature.png" width="31%" alt="AUTO BONGO V2 Signature theme">
+  <img src="assets/screenshots/pastel.png" width="31%" alt="AUTO BONGO V2 Pastel theme">
+  <img src="assets/screenshots/john-pork.png" width="31%" alt="AUTO BONGO V2 John Pork theme">
+</p>
 
-## 🛠️ Troubleshooting
+<p align="center"><i>Signature precision, pastel notebook polish, and full internet-brainrot mode.</i></p>
 
-- **Says "Running" but the cat freezes / stops counting** — Steam is stealing the controller. Fix it once:
-  **Steam → Library → right-click Bongo Cat → Properties → Controller → set to "Disable Steam Input"** → relaunch. *(This is the #1 fix.)*
-- **Antivirus / SmartScreen warning** — false positive. Tools that emulate a controller trip generic heuristics. Allow it / Run anyway.
-- **Cat not moving at all** — make sure Bongo Cat is open **and set to Controller input** in its settings.
+## Installation
 
-## 🧰 Requirements
+1. Close Bongo Cat.
+2. Extract the release ZIP.
+3. Double-click **`Install AUTO BONGO V2.bat`**.
+4. Approve the Windows administrator prompt.
+5. Launch **AUTO BONGO V2** from the new desktop or Start Menu shortcut.
 
-64-bit Windows 10/11 · Steam · the Bongo Cat app.
+The installer automatically:
 
-## 🏗️ Built with
+- detects Bongo Cat across configured Steam libraries;
+- installs the ViGEm virtual-controller driver;
+- backs up the user's current Bongo Cat game assembly;
+- installs the cursorless automation bridge;
+- creates branded desktop and Start Menu shortcuts; and
+- installs a rollback uninstaller.
 
-- [vgamepad](https://github.com/yannbouteiller/vgamepad) (MIT) — virtual controller
-- [ViGEmBus](https://github.com/ViGEm/ViGEmBus) (BSD-3-Clause) — virtual gamepad driver
-- Python + PyInstaller
+## Important
 
-Third-party licenses in [`THIRD-PARTY-LICENSES.txt`](THIRD-PARTY-LICENSES.txt).
+- Requires 64-bit Windows 10 or Windows 11, Steam, and Bongo Cat.
+- Enable **Controller Inputs** inside Bongo Cat for Beat Spam.
+- A Bongo Cat update may restore its game assembly. If the cursorless bridge is
+  unavailable after an update, rerun the AUTO BONGO V2 installer.
+- This free community build is not code-signed. Windows may display an
+  unknown-publisher or SmartScreen warning. Release checksums are provided.
 
-## 📜 License
+## Uninstall
 
-**Free to use, but not open-source.** © 2026 Triniidadii Productions, all rights reserved — see [LICENSE](LICENSE). You can download and use it; please don't copy, rebrand, or resell it. This is a fan-made tool for the single-player Bongo Cat app; use it at your own discretion.
+Open **Start Menu → Triniidadii Productions → Uninstall AUTO BONGO V2**.
+
+The uninstaller restores the exact original Bongo Cat assembly saved during
+installation and removes the cursorless bridge, shortcuts, and application.
+
+## Special thanks
+
+- **[Bela](https://steamcommunity.com/profiles/76561198992897176)** for feature
+  requests that helped push the project beyond its original scope.
+- **[daclumsyasian](https://steamcommunity.com/profiles/76561199231027721)** for
+  being the first person to use the application and helping test it before the
+  original public release.
+
+## Technology and licenses
+
+- [vgamepad](https://github.com/yannbouteiller/vgamepad) — MIT
+- [ViGEmBus](https://github.com/ViGEm/ViGEmBus) — BSD-3-Clause
+- [Mono.Cecil](https://www.mono-project.com/docs/tools+libraries/libraries/Mono.Cecil/) — MIT
+- Python, Tkinter, Pillow, pywin32, and PyInstaller
+
+Third-party notices are available in
+[`THIRD-PARTY-LICENSES.txt`](THIRD-PARTY-LICENSES.txt) and inside every release.
+
+## License
+
+**Free to use, but not open source.** Copyright 2026 Triniidadii Productions.
+All rights reserved. You may download and use the application; do not copy,
+rebrand, redistribute, or resell it. This is an independent fan-made utility
+for the single-player Bongo Cat application. Use it at your own discretion.
 
 ---
 
-<p align="center"><i>Made with 🖤💛 by Triniidadii Productions</i></p>
+<p align="center"><i>Made by Triniidadii Productions for the Bongo Cat community.</i></p>
+
+<!--
+Yo... why are you all the way down here, bro?
+Ain't shit in here. You GitHub lurkers really do read EVERYTHING lmfao.
+Since you made it this far: drink some water, collect your chests, and act like you never saw this.
+-->
