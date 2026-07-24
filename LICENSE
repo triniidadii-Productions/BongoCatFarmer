@@ -1,24 +1,133 @@
-Bongo Cat Farmer
-Copyright (c) 2026 Triniidadii Productions. All Rights Reserved.
+AUTO BONGO V2 PROPRIETARY SOFTWARE LICENSE
 
-This software is provided free of charge for PERSONAL USE ONLY.
+Copyright (c) 2026 Triniidadii Productions. All rights reserved.
 
-You MAY:
-  - Download, install, and use the application for your own personal use.
-  - Share the official download link.
+This agreement applies to AUTO BONGO V2, including its executable files,
+installer, automation bridge, user interface, artwork, branding, documentation,
+updates, and all other original components supplied by Triniidadii Productions
+(collectively, the "Software"). By downloading, installing, copying, accessing,
+or using the Software, you agree to these terms. If you do not agree, do not
+download, install, or use the Software.
 
-You MAY NOT, without prior written permission from Triniidadii Productions:
-  - Copy, reproduce, or republish the source code or any part of it.
-  - Modify, adapt, translate, or create derivative works.
-  - Decompile, disassemble, or reverse-engineer the application.
-  - Sell, license, sublicense, rent, or otherwise commercialize it.
-  - Redistribute the files under your own name or branding.
+1. LIMITED PERSONAL-USE LICENSE
 
-The software is provided "AS IS", without warranty of any kind, express or
-implied. In no event shall the author be liable for any claim, damages, or
-other liability arising from the use of the software.
+Triniidadii Productions grants you a limited, revocable, non-exclusive,
+non-transferable, non-sublicensable license to download, install, and use the
+Software solely for lawful, personal, non-commercial purposes. The Software is
+licensed, not sold. No ownership interest is transferred to you.
 
-Bundled third-party components (vgamepad, ViGEmBus) remain under their own
-licenses — see THIRD-PARTY-LICENSES.txt.
+2. OWNERSHIP AND RESERVATION OF RIGHTS
 
-For permissions or inquiries: Discord "Triniidadii_Productions".
+Triniidadii Productions exclusively owns all right, title, and interest in the
+original Software, including its code, systems, design, interface, artwork,
+branding, documentation, and derivative works. All rights not expressly granted
+in this agreement are reserved. No implied license is granted.
+
+3. SHARING THE SOFTWARE
+
+You may:
+
+  a. share the official GitHub release link; or
+  b. share an exact, complete, unmodified copy of the official release archive,
+     provided that you clearly credit Triniidadii Productions, include this
+     license and all notices, do not charge money, and provide a link to the
+     official repository or release page.
+
+You may not mirror, bundle, or redistribute the Software in a manner that
+suggests you created, own, sponsor, or officially maintain it. You may not
+remove or alter authorship, copyright, branding, license, checksum, or other
+notices. Modified copies may not be shared under any circumstances without
+prior written permission from Triniidadii Productions.
+
+4. PROHIBITED CONDUCT
+
+Except with prior written permission from Triniidadii Productions, you may not:
+
+  a. reproduce, copy, republish, or distribute the Software except as expressly
+     allowed by Section 3;
+  b. modify, patch, adapt, translate, port, or create derivative works from the
+     Software;
+  c. reverse engineer, decompile, disassemble, decode, inspect, extract, or
+     otherwise attempt to discover the source code, internal design, algorithms,
+     protocols, automation systems, or implementation methods of the Software;
+  d. use analysis, debugging, dumping, unpacking, disassembly, decompilation, or
+     similar tools to reproduce or appropriate any part of the Software;
+  e. copy or use the Software's systems, code, design, artwork, branding, or
+     implementation methods in another product, service, script, or project;
+  f. bypass, disable, defeat, or interfere with technical protections, integrity
+     checks, licensing notices, or attribution mechanisms;
+  g. sell, rent, lease, sublicense, monetize, commercially exploit, or charge for
+     access to the Software;
+  h. rebrand, impersonate, misrepresent the origin of, or claim authorship of the
+     Software; or
+  i. use the Software for unlawful, malicious, abusive, or unauthorized activity.
+
+These restrictions apply to the maximum extent permitted by applicable law. If
+applicable law expressly grants a non-waivable right despite a restriction,
+that restriction applies only to the maximum extent enforceable, and any
+exercise of that right must remain strictly within the scope required by law.
+
+5. THIRD-PARTY COMPONENTS
+
+Third-party components remain governed by their respective licenses and are not
+relicensed under this agreement. Their notices are provided in
+THIRD-PARTY-LICENSES.txt. This agreement applies only to original material owned
+by Triniidadii Productions.
+
+6. ASSUMPTION OF RISK
+
+The Software interacts with third-party applications, game files, virtual input
+drivers, and local system settings. You are solely responsible for deciding
+whether to install or use it, following the documentation, maintaining backups,
+and complying with the terms and rules of third-party software and services.
+You assume all risks arising from installation or use, including data loss,
+configuration changes, incompatibility, account action, interruption, hardware
+or software damage, and loss of access or profits.
+
+7. DISCLAIMER OF WARRANTIES
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITH ALL FAULTS AND WITHOUT
+WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY LAW, TRINIIDADII
+PRODUCTIONS DISCLAIMS ALL EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT,
+ACCURACY, SECURITY, RELIABILITY, AVAILABILITY, AND ERROR-FREE OPERATION. NO
+ADVICE OR COMMUNICATION CREATES A WARRANTY.
+
+8. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, TRINIIDADII PRODUCTIONS AND ITS OWNER,
+CONTRIBUTORS, TESTERS, AND DISTRIBUTORS SHALL NOT BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL, OR PUNITIVE DAMAGES;
+LOSS OF DATA, PROFITS, REVENUE, GOODWILL, OR USE; COMPUTER OR DEVICE DAMAGE;
+ACCOUNT RESTRICTIONS; BUSINESS INTERRUPTION; OR ANY OTHER CLAIM OR LOSS ARISING
+FROM OR RELATED TO THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE. WHERE LIABILITY CANNOT BE EXCLUDED, TOTAL AGGREGATE LIABILITY SHALL NOT
+EXCEED THE AMOUNT YOU PAID DIRECTLY TO TRINIIDADII PRODUCTIONS FOR THE SOFTWARE.
+
+9. INDEMNITY
+
+To the maximum extent permitted by law, you agree to defend, indemnify, and hold
+harmless Triniidadii Productions and its owner from claims, liabilities,
+damages, losses, and expenses arising from your misuse of the Software, breach
+of this agreement, unlawful conduct, or violation of another person's rights.
+
+10. TERMINATION
+
+This license terminates automatically and immediately if you breach these
+terms. Upon termination, you must stop using the Software and destroy all copies
+in your possession or control. Sections concerning ownership, restrictions,
+disclaimers, liability, indemnity, and enforcement survive termination.
+
+11. SEVERABILITY AND NO WAIVER
+
+If any provision is found unenforceable, it shall be limited or modified only
+as much as necessary, and the remaining provisions remain effective. Failure to
+enforce a provision is not a waiver of that provision or any other right.
+
+12. PERMISSIONS AND CONTACT
+
+Any permission outside this license must be obtained in writing from
+Triniidadii Productions. Discord: Triniidadii_productions.
+
+Official repository:
+https://github.com/triniidadii-Productions/BongoCatFarmer
