@@ -90,6 +90,37 @@ applicable law expressly grants a non-waivable right despite a restriction,
 that restriction applies only to the maximum extent enforceable, and any
 exercise of that right must remain strictly within the scope required by law.
 
+4A. ZERO TOLERANCE FOR MALICIOUS USE
+
+The Software is provided only for its documented personal automation purpose.
+You may not use, modify, combine, distribute, direct, or cause the Software, or
+any component or derivative of it, to:
+
+  a. gain or attempt to gain unauthorized access to any computer, device,
+     account, network, service, application, file, credential, or data;
+  b. hijack, take control of, lock, impair, infect, sabotage, damage, disrupt,
+     burden, disable, or interfere with another person's system or property;
+  c. create, deliver, install, conceal, or operate malware, ransomware, spyware,
+     keyloggers, credential stealers, backdoors, droppers, loaders, botnets,
+     persistence mechanisms, destructive code, or other malicious payloads;
+  d. intercept, monitor, surveil, record, copy, exfiltrate, disclose, sell, or
+     steal another person's communications, credentials, identity, files,
+     personal information, financial information, or other data;
+  e. impersonate, defraud, deceive, extort, threaten, harass, exploit, or cause
+     financial, reputational, privacy, security, or other harm to any person;
+  f. evade security controls, detection, attribution, investigation, platform
+     enforcement, or legal process; or
+  g. assist, encourage, instruct, enable, or facilitate any prohibited activity
+     described above.
+
+No permission, license, authorization, or consent is granted for any such use.
+Malicious or unauthorized use is a material breach that terminates this license
+immediately. The responsible person assumes sole liability for their conduct and
+all resulting harm, claims, costs, and legal consequences. Triniidadii
+Productions reserves every available civil remedy and may preserve evidence,
+notify affected parties or platforms, and report suspected unlawful conduct to
+law-enforcement or other appropriate authorities.
+
 5. THIRD-PARTY COMPONENTS
 
 Third-party components remain governed by their respective licenses and are not
@@ -132,12 +163,16 @@ EXCEED THE AMOUNT YOU PAID DIRECTLY TO TRINIIDADII PRODUCTIONS FOR THE SOFTWARE.
 To the maximum extent permitted by law, you agree to defend, indemnify, and hold
 harmless Triniidadii Productions and its owner from claims, liabilities,
 damages, losses, and expenses arising from your misuse of the Software, breach
-of this agreement, unlawful conduct, or violation of another person's rights.
+of this agreement, unlawful or malicious conduct, unauthorized access, infection,
+data or credential theft, interference with another person's systems, or
+violation of another person's rights. This includes reasonable legal fees and
+costs of investigation, containment, notification, remediation, and response.
 
 10. TERMINATION
 
 This license terminates automatically and immediately if you breach these
-terms. Upon termination, you must stop using the Software and destroy all copies
+terms. Malicious use or unauthorized access causes immediate termination without
+notice. Upon termination, you must stop using the Software and destroy all copies
 in your possession or control. Sections concerning ownership, restrictions,
 disclaimers, liability, indemnity, and enforcement survive termination.
 
