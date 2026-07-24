@@ -111,6 +111,12 @@ or the owner's likeness for advertising, endorsement, monetization, or promotion
 The software is provided as-is and used entirely at your own risk. See the
 complete [proprietary license](LICENSE).
 
+**Zero tolerance for malicious use:** no hijacking, infection, unauthorized
+access, malware, surveillance, credential or data theft, fraud, sabotage, or
+interference with another person's devices, accounts, files, or services.
+Malicious use immediately terminates the license, leaves the responsible person
+solely liable, and may be reported to affected parties and law enforcement.
+
 ---
 
 <p align="center"><i>Made by Triniidadii Productions for the Bongo Cat community.</i></p>
