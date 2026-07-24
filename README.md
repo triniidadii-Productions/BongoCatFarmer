@@ -101,10 +101,12 @@ Third-party notices are available in
 
 ## License
 
-**Free to use, but not open source.** Copyright 2026 Triniidadii Productions.
-All rights reserved. You may download and use the application; do not copy,
-rebrand, redistribute, or resell it. This is an independent fan-made utility
-for the single-player Bongo Cat application. Use it at your own discretion.
+**Proprietary software. Copyright 2026 Triniidadii Productions. All rights
+reserved.** You receive a limited personal-use license, not ownership. You may
+share the official link or an exact, untouched release with clear attribution;
+you may not modify, reverse engineer, decompile, extract, rebrand, resell, or
+reuse its systems in another project. The software is provided as-is and used
+entirely at your own risk. See the complete [proprietary license](LICENSE).
 
 ---
 
