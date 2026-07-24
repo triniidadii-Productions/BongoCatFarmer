@@ -103,7 +103,8 @@ installation and removes the cursorless bridge, shortcuts, and application.
 - Python, Tkinter, Pillow, pywin32, and PyInstaller
 
 Third-party notices are available in
-[`THIRD-PARTY-LICENSES.txt`](THIRD-PARTY-LICENSES.txt) and inside every release.
+[`THIRD-PARTY-LICENSES.txt`](THIRD-PARTY-LICENSES.txt) and as `LICENSES.txt`
+inside every release.
 
 ## License
 

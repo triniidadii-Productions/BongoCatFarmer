@@ -1,4 +1,4 @@
-This tool redistributes two third-party components. Their licenses:
+This tool redistributes three third-party components. Their licenses:
 
 ============================================================
 vgamepad  —  MIT License
