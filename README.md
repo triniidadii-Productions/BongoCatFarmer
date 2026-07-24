@@ -105,8 +105,11 @@ Third-party notices are available in
 reserved.** You receive a limited personal-use license, not ownership. You may
 share the official link or an exact, untouched release with clear attribution;
 you may not modify, reverse engineer, decompile, extract, rebrand, resell, or
-reuse its systems in another project. The software is provided as-is and used
-entirely at your own risk. See the complete [proprietary license](LICENSE).
+reuse its systems to build or ship another version or competing project. No
+right is granted to use the Triniidadii Productions name, services, identity,
+or the owner's likeness for advertising, endorsement, monetization, or promotion.
+The software is provided as-is and used entirely at your own risk. See the
+complete [proprietary license](LICENSE).
 
 ---
 
