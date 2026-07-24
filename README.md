@@ -31,6 +31,9 @@ file if desired, extract the ZIP, and read `README.txt` before installation.
 - **Emoji Spam** invokes equipped reusable emotes directly inside the game.
 - **Cursorless automation:** Auto Collect and Emoji Spam never move the Windows
   mouse or steal focus from another application.
+- **Fail-safe automation:** a live controller heartbeat disables the in-game
+  bridge within five seconds if AUTO BONGO V2 closes or stops responding.
+- **Single-instance protection** prevents duplicate controllers from competing.
 - **Full and compact layouts** with persistent preferences.
 - **68 themes** across Signature, Pastel, Grunge, Digital, and Memes.
 - Department-specific shapes, typography, artwork, and ambient animation.
@@ -58,19 +61,22 @@ file if desired, extract the ZIP, and read `README.txt` before installation.
 
 The installer automatically:
 
+- verifies every packaged file against the included SHA-256 manifest before
+  changing the system or game;
 - detects Bongo Cat across configured Steam libraries;
 - installs the ViGEm virtual-controller driver;
 - backs up the user's current Bongo Cat game assembly;
 - installs the cursorless automation bridge;
 - creates branded desktop and Start Menu shortcuts; and
-- installs a rollback uninstaller.
+- registers AUTO BONGO V2 in Windows Installed Apps with a rollback uninstaller.
 
 ## Important
 
 - Requires 64-bit Windows 10 or Windows 11, Steam, and Bongo Cat.
 - Enable **Controller Inputs** inside Bongo Cat for Beat Spam.
 - A Bongo Cat update may restore its game assembly. If the cursorless bridge is
-  unavailable after an update, rerun the AUTO BONGO V2 installer.
+  unavailable after an update, rerun the AUTO BONGO V2 installer. It detects the
+  newer clean assembly and refreshes the uninstall backup safely.
 - This free community build is not code-signed. Windows may display an
   unknown-publisher or SmartScreen warning. Release checksums are provided.
 
