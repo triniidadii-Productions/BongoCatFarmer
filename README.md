@@ -2,21 +2,6 @@
   <img src="assets/auto-bongo-v2-icon.png" width="220" alt="AUTO BONGO V2 icon">
 </p>
 
-<h1 align="center">AUTO BONGO V2</h1>
-<p align="center"><b>Beat Spam · Auto Chest Collector · Emoji Spammer</b></p>
-<p align="center">by <b>Triniidadii Productions</b></p>
-
-<p align="center">
-  <a href="https://open.spotify.com/artist/4oLdOm6VP4eyo40CIguViO">Spotify</a> ·
-  Discord: <b>Triniidadii_productions</b>
-</p>
-
----
-
-AUTO BONGO V2 is a Windows automation controller for the Steam **Bongo Cat**
-application. It combines high-speed controller beats with cursorless chest and
-emoji automation in a compact, heavily customizable desktop interface.
-
 ## Download
 
 **[Download the newest Windows release](../../releases/latest)**
