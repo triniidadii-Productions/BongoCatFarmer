@@ -6,8 +6,17 @@
 
 **[Download the newest Windows release](../../releases/latest)**
 
-Download `AUTO-BONGO-V2.0.0-Windows-x64.zip`, verify the accompanying SHA-256
+Download `AUTO-BONGO-V2.0.1-Windows-x64.zip`, verify the accompanying SHA-256
 file if desired, extract the ZIP, and read `README.txt` before installation.
+
+### Version 2.0.1
+
+- Restores Auto Collect compatibility with the August 2026 Bongo Cat update.
+- Detects whether the in-game automation bridge is genuinely live instead of
+  trusting stale status left behind by an older game session.
+- Adds a proper taskbar minimize button in both full and compact layouts.
+- Adds **Check for Updates** in-app, opening the official latest-release page.
+- Keeps the already-working Beat Spam and Emoji Spam behavior unchanged.
 
 ## Features
 
@@ -20,6 +29,8 @@ file if desired, extract the ZIP, and read `README.txt` before installation.
   bridge within five seconds if AUTO BONGO V2 closes or stops responding.
 - **Single-instance protection** prevents duplicate controllers from competing.
 - **Full and compact layouts** with persistent preferences.
+- **Proper taskbar minimize** controls in both layouts.
+- **One-click update check** opens the official latest GitHub release.
 - **68 themes** across Signature, Pastel, Grunge, Digital, and Memes.
 - Department-specific shapes, typography, artwork, and ambient animation.
 - Four-times supersampled UI surfaces for clean anti-aliased curves.
@@ -59,9 +70,10 @@ The installer automatically:
 
 - Requires 64-bit Windows 10 or Windows 11, Steam, and Bongo Cat.
 - Enable **Controller Inputs** inside Bongo Cat for Beat Spam.
-- A Bongo Cat update may restore its game assembly. If the cursorless bridge is
-  unavailable after an update, rerun the AUTO BONGO V2 installer. It detects the
-  newer clean assembly and refreshes the uninstall backup safely.
+- A Bongo Cat update may restore its game assembly. If AUTO BONGO V2 reports
+  **Bridge update required**, download the newest official release and rerun its
+  installer. It detects the newer clean assembly and refreshes the uninstall
+  backup safely.
 - This free community build is not code-signed. Windows may display an
   unknown-publisher or SmartScreen warning. Release checksums are provided.
 
