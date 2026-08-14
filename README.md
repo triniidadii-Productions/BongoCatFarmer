@@ -6,6 +6,9 @@
 
 **[Download the newest Windows release](../../releases/latest)**
 
+**[Steam Community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3759650867)** ·
+**[Version 2.0.1 guide mirror](STEAM_GUIDE.md)**
+
 Download `AUTO-BONGO-V2.0.1-Windows-x64.zip`, verify the accompanying SHA-256
 file if desired, extract the ZIP, and read `README.txt` before installation.
 
@@ -91,6 +94,8 @@ installation and removes the cursorless bridge, shortcuts, and application.
 - **[daclumsyasian](https://steamcommunity.com/profiles/76561199231027721)** for
   being the first person to use the application and helping test it before the
   original public release.
+- **[LordErdbeere](https://steamcommunity.com/id/lorderdbeere)** for reporting
+  post-update bugs and requesting proper full minimization.
 
 ## Technology and licenses
 
