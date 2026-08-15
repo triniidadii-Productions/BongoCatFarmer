@@ -7,24 +7,27 @@
 **[Download the newest Windows release](../../releases/latest)**
 
 **[Steam Community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3759650867)** ·
-**[Version 2.0.1 guide mirror](STEAM_GUIDE.md)**
+**[Version 2.0.2 guide mirror](STEAM_GUIDE.md)**
 
-Download `AUTO-BONGO-V2.0.1-Windows-x64.zip`, verify the accompanying SHA-256
+Download `AUTO-BONGO-V2.0.2-Windows-x64.zip`, verify the accompanying SHA-256
 file if desired, extract the ZIP, and read `README.txt` before installation.
 
-### Version 2.0.1
+### Version 2.0.2
 
-- Restores Auto Collect compatibility with the August 2026 Bongo Cat update.
-- Detects whether the in-game automation bridge is genuinely live instead of
-  trusting stale status left behind by an older game session.
-- Adds a proper taskbar minimize button in both full and compact layouts.
-- Adds **Check for Updates** in-app, opening the official latest-release page.
-- Keeps the already-working Beat Spam and Emoji Spam behavior unchanged.
+- Runs Beat Spam through Bongo Cat's game-side input bridge so real beats keep
+  registering while another application is focused.
+- Checks both chest shops every two seconds and collects through the game's
+  internal purchase path, independent of hidden or unfocused shop visuals.
+- Reports live in-game beat and chest status instead of trusting an ON toggle.
+- Keeps autonomous Emoji Spam, proper taskbar minimization, and the in-app
+  **Check for Updates** button.
 
 ## Features
 
-- **Beat Spam** uses the proper ViGEm virtual Xbox controller layer.
-- **Auto Collect** reads Bongo Cat's real chest-ready state every 60 seconds.
+- **Beat Spam** runs through the game-side background bridge, with ViGEm kept
+  as a legacy fallback.
+- **Auto Collect** reads both real chest-ready states every two seconds and
+  purchases a ready chest directly inside the game.
 - **Emoji Spam** invokes equipped reusable emotes directly inside the game.
 - **Cursorless automation:** Auto Collect and Emoji Spam never move the Windows
   mouse or steal focus from another application.

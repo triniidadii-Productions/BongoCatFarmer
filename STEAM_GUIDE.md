@@ -1,23 +1,22 @@
-# AUTO BONGO V2.0.1 | Beats, Chests & Emojis (UPDATED)
+# AUTO BONGO V2.0.2 | Background Beats, Chests & Emojis
 
-AUTO BONGO V2.0.1 is the August 2026 compatibility release from
-**Triniidadii Productions**. It restores Auto Collect after the latest Bongo Cat
-update while keeping Beat Spam and Emoji Spam working exactly as intended.
+AUTO BONGO V2.0.2 is the background automation fix from
+**Triniidadii Productions**. Beat Spam and Auto Collect now use the same
+game-side bridge so both keep working while you use other applications.
 
 **[Download the newest official Windows release](../../releases/latest)**
 
 **[Open the Steam Community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3759650867)**
 
-> Already using version 2.0.0? Install 2.0.1. The Bongo Cat update replaced the
-> old in-game bridge, so the previous Auto Collect build cannot detect ready
-> chests correctly anymore.
+> Install 2.0.2 even if you already have 2.0.0 or 2.0.1. This release replaces
+> the focus-sensitive automation path used by the earlier builds.
 
 ## What it does
 
-- **Beat Spam** sends fast controller beats through the proper ViGEm virtual
-  Xbox controller layer.
-- **Auto Collect** checks Bongo Cat's real chest-ready state every 60 seconds
-  and collects from both shops automatically.
+- **Beat Spam** registers real beats through Bongo Cat's own background input
+  bridge. ViGEm remains available only as a legacy fallback.
+- **Auto Collect** checks both real chest states every two seconds and buys a
+  ready chest directly inside the game.
 - **Emoji Spam** autonomously uses your equipped reusable emotes.
 - Auto Collect and Emoji Spam are completely cursorless. They do not move your
   real mouse or steal focus from another application.
@@ -32,22 +31,21 @@ update while keeping Beat Spam and Emoji Spam working exactly as intended.
 ## Fresh installation
 
 1. Close Bongo Cat.
-2. Download `AUTO-BONGO-V2.0.1-Windows-x64.zip` from the official latest release.
+2. Download `AUTO-BONGO-V2.0.2-Windows-x64.zip` from the official latest release.
 3. Extract the entire ZIP. Do not run the installer from inside the archive.
 4. Double-click **`Install AUTO BONGO V2.bat`**.
 5. Approve the Windows administrator prompt.
 6. Launch AUTO BONGO V2 from the new desktop or Start Menu shortcut.
-7. Open Bongo Cat and enable **Controller Inputs** inside the game for Beat Spam.
 
 The installer verifies every packaged file, finds Bongo Cat across configured
 Steam libraries, backs up the current game assembly, installs the cursorless
 bridge and ViGEmBus, then creates the branded shortcuts and rollback uninstaller.
 
-## Updating from version 2.0.0
+## Updating from an earlier version
 
 1. Close Bongo Cat and AUTO BONGO V2.
-2. Download and fully extract the new 2.0.1 ZIP.
-3. Run **`Install AUTO BONGO V2.bat`** from the extracted 2.0.1 folder.
+2. Download and fully extract the new 2.0.2 ZIP.
+3. Run **`Install AUTO BONGO V2.bat`** from the extracted 2.0.2 folder.
 4. Launch Bongo Cat and AUTO BONGO V2 normally.
 
 Your theme, transparency, and compact-mode preferences are retained.
@@ -55,7 +53,7 @@ Your theme, transparency, and compact-mode preferences are retained.
 ## Using the automation
 
 - Click **BEAT SPAM** to toggle automatic bongo beats.
-- Click **AUTO COLLECT** to watch both chest shops. The bridge checks every 60
+- Click **AUTO COLLECT** to watch both chest shops. The bridge checks every two
   seconds and acts only when a chest is genuinely ready.
 - Click **EMOJI SPAM** to autonomously use your equipped reusable emotes.
 - Click the **minimize** control to send the app fully to the Windows taskbar.
