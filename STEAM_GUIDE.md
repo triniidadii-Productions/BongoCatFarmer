@@ -1,7 +1,9 @@
-# AUTO BONGO V2.0.2 | Background Beats, Chests & Emojis
+# AUTO BONGO V2.0.3 | Background Beats, Chests & Emojis
 
-AUTO BONGO V2.0.2 is the background automation fix from
-**Triniidadii Productions**. Beat Spam and Auto Collect now use the same
+AUTO BONGO V2.0.3 is the collector reliability update from
+**Triniidadii Productions**. Version 2.0.3 keeps Auto Collect connected through
+long sessions, brief scheduling stalls, and Windows resume events. Beat Spam
+and Auto Collect use the same
 game-side bridge so both keep working while you use other applications.
 
 **[Download the newest official Windows release](../../releases/latest)**

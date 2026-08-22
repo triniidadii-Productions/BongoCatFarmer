@@ -7,12 +7,19 @@
 **[Download the newest Windows release](../../releases/latest)**
 
 **[Steam Community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3759650867)** ·
-**[Version 2.0.2 guide mirror](STEAM_GUIDE.md)**
+**[Version 2.0.3 guide mirror](STEAM_GUIDE.md)**
 
-Download `AUTO-BONGO-V2.0.2-Windows-x64.zip`, verify the accompanying SHA-256
+Download `AUTO-BONGO-V2.0.3-Windows-x64.zip`, verify the accompanying SHA-256
 file if desired, extract the ZIP, and read `README.txt` before installation.
 
-### Version 2.0.2
+### Version 2.0.3
+
+- Fixes Auto Collect eventually appearing to disconnect or turn itself off
+  during long sessions.
+- Publishes controller state atomically and maintains it from a dedicated
+  heartbeat worker.
+- Tolerates brief scheduler stalls and Windows resume events without losing
+  the user's enabled features.
 
 - Runs Beat Spam through Bongo Cat's game-side input bridge so real beats keep
   registering while another application is focused.
