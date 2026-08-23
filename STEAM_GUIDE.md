@@ -1,17 +1,18 @@
-# AUTO BONGO V2.0.3 | Background Beats, Chests & Emojis
+# AUTO BONGO V2.0.4 | Background Beats, Chests & Emojis
 
-AUTO BONGO V2.0.3 is the collector reliability update from
-**Triniidadii Productions**. Version 2.0.3 keeps Auto Collect connected through
-long sessions, brief scheduling stalls, and Windows resume events. Beat Spam
-and Auto Collect use the same
+AUTO BONGO V2.0.4 is the reliability + diagnostics update from
+**Triniidadii Productions**. The bridge now self-heals when a Steam update
+breaks it, a startup health check verifies the game, bridge, and driver on
+every launch, and one-click updates install the newest release with SHA-256
+verification. Beat Spam and Auto Collect use the same
 game-side bridge so both keep working while you use other applications.
 
 **[Download the newest official Windows release](../../releases/latest)**
 
 **[Open the Steam Community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3759650867)**
 
-> Install 2.0.2 even if you already have 2.0.0 or 2.0.1. This release replaces
-> the focus-sensitive automation path used by the earlier builds.
+> Install 2.0.4 even if you already have 2.0.0, 2.0.1, 2.0.2, or 2.0.3.
+> This release replaces all earlier builds.
 
 ## What it does
 
@@ -26,14 +27,23 @@ game-side bridge so both keep working while you use other applications.
   genuinely available instead of trusting an old status file.
 - Both the full and compact interfaces have a real Windows taskbar minimize
   button.
+- **Self-healing bridge:** if a Steam update breaks the game bridge, the app
+  detects it and REPAIR BRIDGE restores it without a full reinstall.
+- **Diagnostics built in:** EXPORT LOGS writes a diagnostics zip to your
+  Desktop, and SEND BUG delivers bug reports to our Discord server
+  (https://discord.gg/VGsZUDsrj9).
+- **One-click updates** download and hash-verify the newest release for you.
+- **Stats and secrets:** session/lifetime stats, a SHARE stat card, and 14
+  unlockable secret themes including Spotify-listening tiers.
 - **Check for Updates** opens the official latest-release page directly from
   the application.
-- Full and compact layouts, adjustable transparency, and 68 themes are included.
+- Full and compact layouts, adjustable transparency, and 80+ themes
+  (including 14 unlockable secret themes) are included.
 
 ## Fresh installation
 
 1. Close Bongo Cat.
-2. Download `AUTO-BONGO-V2.0.2-Windows-x64.zip` from the official latest release.
+2. Download `AUTO-BONGO-V2.0.4-Windows-x64.zip` from the official latest release.
 3. Extract the entire ZIP. Do not run the installer from inside the archive.
 4. Double-click **`Install AUTO BONGO V2.bat`**.
 5. Approve the Windows administrator prompt.
@@ -46,8 +56,8 @@ bridge and ViGEmBus, then creates the branded shortcuts and rollback uninstaller
 ## Updating from an earlier version
 
 1. Close Bongo Cat and AUTO BONGO V2.
-2. Download and fully extract the new 2.0.2 ZIP.
-3. Run **`Install AUTO BONGO V2.bat`** from the extracted 2.0.2 folder.
+2. Download and fully extract the new 2.0.4 ZIP.
+3. Run **`Install AUTO BONGO V2.bat`** from the extracted 2.0.4 folder.
 4. Launch Bongo Cat and AUTO BONGO V2 normally.
 
 Your theme, transparency, and compact-mode preferences are retained.

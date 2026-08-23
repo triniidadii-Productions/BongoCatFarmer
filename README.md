@@ -7,27 +7,32 @@
 **[Download the newest Windows release](../../releases/latest)**
 
 **[Steam Community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3759650867)** ·
-**[Version 2.0.3 guide mirror](STEAM_GUIDE.md)**
+**[Version 2.0.4 guide mirror](STEAM_GUIDE.md)**
 
-Download `AUTO-BONGO-V2.0.3-Windows-x64.zip`, verify the accompanying SHA-256
+Download `AUTO-BONGO-V2.0.4-Windows-x64.zip`, verify the accompanying SHA-256
 file if desired, extract the ZIP, and read `README.txt` before installation.
 
-### Version 2.0.3
+### Version 2.0.4
 
-- Fixes Auto Collect eventually appearing to disconnect or turn itself off
-  during long sessions.
-- Publishes controller state atomically and maintains it from a dedicated
-  heartbeat worker.
-- Tolerates brief scheduler stalls and Windows resume events without losing
-  the user's enabled features.
-
-- Runs Beat Spam through Bongo Cat's game-side input bridge so real beats keep
-  registering while another application is focused.
-- Checks both chest shops every two seconds and collects through the game's
-  internal purchase path, independent of hidden or unfocused shop visuals.
-- Reports live in-game beat and chest status instead of trusting an ON toggle.
-- Keeps autonomous Emoji Spam, proper taskbar minimization, and the in-app
-  **Check for Updates** button.
+- Self-healing bridge: when a Steam update breaks the game-side bridge, the app
+  detects it and the REPAIR BRIDGE button fixes the installation without a full
+  reinstall.
+- Diagnostic logs plus one-click EXPORT LOGS and SEND BUG buttons, so bug
+  reports reach us with everything we need.
+- One-click in-app updater: downloads the latest release, verifies it with
+  SHA-256 hash checking, and installs it for you.
+- Startup health check confirms the bridge, driver, and game state every time
+  the app launches.
+- Session and lifetime stats with a SHARE button that saves a stat card image
+  to your Desktop.
+- Optional start-with-Windows toggle and custom keybinds (rebind the global
+  F-key hotkeys to whatever you like).
+- Minimize fixed: proper taskbar minimize in both layouts, with optional
+  minimize-to-tray.
+- New branding and 14 unlockable secret themes, including Spotify-listening
+  tiers.
+- Achievements, daily streaks, collect sounds, and milestone celebrations.
+- Optional beta update channel for early builds.
 
 ## Features
 
@@ -44,7 +49,8 @@ file if desired, extract the ZIP, and read `README.txt` before installation.
 - **Full and compact layouts** with persistent preferences.
 - **Proper taskbar minimize** controls in both layouts.
 - **One-click update check** opens the official latest GitHub release.
-- **68 themes** across Signature, Pastel, Grunge, Digital, and Memes.
+- **80+ themes including 14 unlockable secret themes** across Signature,
+  Pastel, Grunge, Digital, Memes, Seasonal, and Secrets.
 - Department-specific shapes, typography, artwork, and ambient animation.
 - Four-times supersampled UI surfaces for clean anti-aliased curves.
 - Adjustable window transparency.
