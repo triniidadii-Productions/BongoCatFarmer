@@ -7,20 +7,29 @@
 **[Download the newest Windows release](../../releases/latest)**
 
 **[Steam Community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3759650867)** ·
-**[Version 2.0.4 guide mirror](STEAM_GUIDE.md)**
+**[Version 2.0.5 guide mirror](STEAM_GUIDE.md)**
 
-Download `AUTO-BONGO-V2.0.4-Windows-x64.zip`, verify the accompanying SHA-256
+Download `AUTO-BONGO-V2.0.5-Windows-x64.zip`, verify the accompanying SHA-256
 file if desired, extract the ZIP, and read `README.txt` before installation.
 
-### Version 2.0.4
+### Version 2.0.5
 
+- The full theme-universe overhaul. Every one of the 93 themes now has its own
+  font, corner shape, border style, background texture, and motion layer, so
+  switching themes actually changes how the whole app feels, not just the
+  colors.
+- Six brand-new themes with real painted backdrop art: Blueprint, Riso Print,
+  Chrome Plate, Vaporwave 95, Phosphor Amber, and Candy Shop.
+- New background textures (scanlines, dots, grids, grain, circuits, waves,
+  stars, halftone) and subtle motion layers that follow the theme you pick.
+- A smarter updater: the app checks GitHub by itself every few hours, shows an
+  update badge with the changelog right inside the app, and verifies every
+  download with SHA-256 before installing anything.
 - Self-healing bridge: when a Steam update breaks the game-side bridge, the app
   detects it and the REPAIR BRIDGE button fixes the installation without a full
   reinstall.
 - Diagnostic logs plus one-click EXPORT LOGS and SEND BUG buttons, so bug
   reports reach us with everything we need.
-- One-click in-app updater: downloads the latest release, verifies it with
-  SHA-256 hash checking, and installs it for you.
 - Startup health check confirms the bridge, driver, and game state every time
   the app launches.
 - Session and lifetime stats with a SHARE button that saves a stat card image
@@ -29,8 +38,7 @@ file if desired, extract the ZIP, and read `README.txt` before installation.
   F-key hotkeys to whatever you like).
 - Minimize fixed: proper taskbar minimize in both layouts, with optional
   minimize-to-tray.
-- New branding and 14 unlockable secret themes, including Spotify-listening
-  tiers.
+- 14 unlockable secret themes, including Spotify-listening tiers.
 - Achievements, daily streaks, collect sounds, and milestone celebrations.
 - Optional beta update channel for early builds.
 
@@ -49,9 +57,9 @@ file if desired, extract the ZIP, and read `README.txt` before installation.
 - **Full and compact layouts** with persistent preferences.
 - **Proper taskbar minimize** controls in both layouts.
 - **One-click update check** opens the official latest GitHub release.
-- **80+ themes including 14 unlockable secret themes** across Signature,
+- **93 themes including 14 unlockable secret themes** across Signature,
   Pastel, Grunge, Digital, Memes, Seasonal, and Secrets.
-- Department-specific shapes, typography, artwork, and ambient animation.
+- Per-theme fonts, shapes, textures, and ambient animation.
 - Four-times supersampled UI surfaces for clean anti-aliased curves.
 - Adjustable window transparency.
 - One-click Discord copy and Spotify access.
@@ -59,12 +67,13 @@ file if desired, extract the ZIP, and read `README.txt` before installation.
 ## In-app preview
 
 <p align="center">
-  <img src="assets/screenshots/signature.png" width="31%" alt="AUTO BONGO V2 Signature theme">
-  <img src="assets/screenshots/pastel.png" width="31%" alt="AUTO BONGO V2 Pastel theme">
-  <img src="assets/screenshots/john-pork.png" width="31%" alt="AUTO BONGO V2 John Pork theme">
+  <img src="assets/screenshots/v205-signature.png" width="24%" alt="AUTO BONGO V2 Obsidian Gold theme">
+  <img src="assets/screenshots/v205-riso-print.png" width="24%" alt="AUTO BONGO V2 Riso Print theme">
+  <img src="assets/screenshots/v205-vaporwave.png" width="24%" alt="AUTO BONGO V2 Vaporwave 95 theme">
+  <img src="assets/screenshots/v205-chrome.png" width="24%" alt="AUTO BONGO V2 Chrome Plate theme">
 </p>
 
-<p align="center"><i>Signature precision, pastel notebook polish, and full internet-brainrot mode.</i></p>
+<p align="center"><i>Every theme now brings its own font, shapes, texture, and motion. These are four of the 93.</i></p>
 
 ## Installation
 
