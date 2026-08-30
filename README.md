@@ -7,12 +7,22 @@
 **[Download the newest Windows release](../../releases/latest)**
 
 **[Steam Community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3759650867)** ·
-**[Version 2.0.5 guide mirror](STEAM_GUIDE.md)**
+**[Version 2.0.6 guide mirror](STEAM_GUIDE.md)**
 
-Download `AUTO-BONGO-V2.0.5-Windows-x64.zip`, verify the accompanying SHA-256
+Download `AUTO-BONGO-V2.0.6-Windows-x64.zip`, verify the accompanying SHA 256
 file if desired, extract the ZIP, and read `README.txt` before installation.
 
-### Version 2.0.5
+### Version 2.0.6
+
+The installer manifest is repaired and official downloads install normally again.
+
+Integrity verification remains strict for hashes, unexpected files, and unsafe paths.
+
+We took the app out back and beat it with a wrench until it worked again.
+
+Thank you to everyone who sent bug reports. You helped us find and repair this fast.
+
+### Carried forward from Version 2.0.5
 
 - The full theme-universe overhaul. Every one of the 93 themes now has its own
   font, corner shape, border style, background texture, and motion layer, so
