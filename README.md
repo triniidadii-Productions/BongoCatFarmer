@@ -7,12 +7,22 @@
 **[Download the newest Windows release](../../releases/latest)**
 
 **[Steam Community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3759650867)** ·
-**[Version 2.0.6 guide mirror](STEAM_GUIDE.md)**
+**[Version 2.0.7 guide mirror](STEAM_GUIDE.md)**
 
-Download `AUTO-BONGO-V2.0.6-Windows-x64.zip`, verify the accompanying SHA 256
+Download `AUTO-BONGO-V2.0.7-Windows-x64.zip`, verify the accompanying SHA 256
 file if desired, extract the ZIP, and read `README.txt` before installation.
 
-### Version 2.0.6
+### Version 2.0.7
+
+Compatibility is restored for the September Bongo Cat update.
+
+Auto Collect and Emoji Spam work again after installing the current release.
+
+Bridge detection now gives the correct installation instruction after a game update.
+
+Thank you Mitsu and Bulo4ka for sending reports and logs.
+
+### Carried forward from Version 2.0.6
 
 The installer manifest is repaired and official downloads install normally again.
 

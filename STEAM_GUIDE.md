@@ -1,9 +1,7 @@
-# AUTO BONGO V2.0.6 | Background Beats, Chests & Emojis
+# AUTO BONGO V2.0.7 | Background Beats, Chests & Emojis
 
-AUTO BONGO V2.0.6 repairs the installer manifest so official downloads install
-normally again. We took the app out back and beat it with a wrench until it
-worked again. Thank you to everyone who sent bug reports and helped us find
-this quickly.
+AUTO BONGO V2.0.7 restores Auto Collect and Emoji Spam after the September
+Bongo Cat update. Thank you Mitsu and Bulo4ka for sending reports and logs.
 
 The theme universe update remains included from
 **Triniidadii Productions**. All 93 themes now have their own font, corner
@@ -17,7 +15,7 @@ game-side bridge so both keep working while you use other applications.
 
 **[Open the Steam Community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3759650867)**
 
-> Install 2.0.6 even if you already have any earlier 2.0 build.
+> Install 2.0.7 even if you already have any earlier 2.0 build.
 > This release replaces all earlier builds.
 
 ## What it does
@@ -49,7 +47,7 @@ game-side bridge so both keep working while you use other applications.
 ## Fresh installation
 
 1. Close Bongo Cat.
-2. Download `AUTO-BONGO-V2.0.6-Windows-x64.zip` from the official latest release.
+2. Download `AUTO-BONGO-V2.0.7-Windows-x64.zip` from the official latest release.
 3. Extract the entire ZIP. Do not run the installer from inside the archive.
 4. Double-click **`Install AUTO BONGO V2.bat`**.
 5. Approve the Windows administrator prompt.
@@ -62,8 +60,8 @@ bridge and ViGEmBus, then creates the branded shortcuts and rollback uninstaller
 ## Updating from an earlier version
 
 1. Close Bongo Cat and AUTO BONGO V2.
-2. Download and fully extract the new 2.0.6 ZIP.
-3. Run **`Install AUTO BONGO V2.bat`** from the extracted 2.0.6 folder.
+2. Download and fully extract the new 2.0.7 ZIP.
+3. Run **`Install AUTO BONGO V2.bat`** from the extracted 2.0.7 folder.
 4. Launch Bongo Cat and AUTO BONGO V2 normally.
 
 Your theme, transparency, and compact-mode preferences are retained.
