@@ -1,157 +1,47 @@
-<p align="center">
-  <img src="assets/auto-bongo-v2-icon.png" width="220" alt="AUTO BONGO V2 icon">
-</p>
+<p align="center"><img src="assets/auto-bongo-v2-icon.png" width="180" alt="AUTO BONGO"></p>
 
-## Download
+# AUTO BONGO 2.0.8
 
-**[Download the newest Windows release](../../releases/latest)**
+Triniidadii Productions
 
-**[Steam Community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3759650867)** ·
-**[Version 2.0.7 guide mirror](STEAM_GUIDE.md)**
+**[Download the latest Windows release](../../releases/latest)**
 
-Download `AUTO-BONGO-V2.0.7-Windows-x64.zip`, verify the accompanying SHA 256
-file if desired, extract the ZIP, and read `README.txt` before installation.
+Fresh Studio visuals and background bongos for the September 8 Bongo Cat update. Automation runs inside Bongo Cat through its game bridge. No virtual controller fallback or automated Windows keyboard and mouse input.
 
-### Version 2.0.7
+Thank you Botani for reporting the update issue and daclumsyasian for testing the new interface.
 
-Compatibility is restored for the September Bongo Cat update.
+## Install or update
 
-Auto Collect and Emoji Spam work again after installing the current release.
+1. Close Bongo Cat and AUTO BONGO.
+2. Download `AUTO-BONGO-V2.0.8-Windows-x64.zip` and extract it completely.
+3. Read `README.txt`, then run `Install AUTO BONGO V2.bat`.
+4. Approve installation and open Bongo Cat and AUTO BONGO.
 
-Bridge detection now gives the correct installation instruction after a game update.
+Requires Windows 10 or 11, Steam and Bongo Cat. The installer verifies package hashes, checks game compatibility and backs up the original game assembly. It installs the game bridge and application shortcuts. No virtual controller driver is required or installed.
 
-Thank you Mitsu and Bulo4ka for sending reports and logs.
+## What is included
 
-### Carried forward from Version 2.0.6
+Beat automation, chest collection and equipped reusable emotes use the Bongo Cat bridge. A missing bridge pauses automation and shows installation instructions. After a game update, close both apps and rerun the current full installer. Launching the EXE alone cannot restore the bridge.
 
-The installer manifest is repaired and official downloads install normally again.
+Studio includes 14 distinct looks, collectible cosmetics, full and compact layouts, local share cards and opt in Spotify desktop listening rewards. Paused and skipped audio does not earn listening credit. Cosmetics belong to AUTO BONGO, not the game's inventory. Sharing rewards card creation, not verified referrals.
 
-Integrity verification remains strict for hashes, unexpected files, and unsafe paths.
+The window follows normal Windows taskbar and stacking behavior. Keyboard shortcuts work while AUTO BONGO is focused, leaving other applications' keys available.
 
-We took the app out back and beat it with a wrench until it worked again.
+## Help
 
-Thank you to everyone who sent bug reports. You helped us find and repair this fast.
+Use Export logs to create diagnostics, review them for personal details and send them with reproduction steps through [Discord](https://discord.gg/VGsZUDsrj9). Exporting does not send files automatically.
 
-### Carried forward from Version 2.0.5
+[Installation and troubleshooting guide](STEAM_GUIDE.md). [Steam Community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3759650867).
 
-- The full theme-universe overhaul. Every one of the 93 themes now has its own
-  font, corner shape, border style, background texture, and motion layer, so
-  switching themes actually changes how the whole app feels, not just the
-  colors.
-- Six brand-new themes with real painted backdrop art: Blueprint, Riso Print,
-  Chrome Plate, Vaporwave 95, Phosphor Amber, and Candy Shop.
-- New background textures (scanlines, dots, grids, grain, circuits, waves,
-  stars, halftone) and subtle motion layers that follow the theme you pick.
-- A smarter updater: the app checks GitHub by itself every few hours, shows an
-  update badge with the changelog right inside the app, and verifies every
-  download with SHA-256 before installing anything.
-- Self-healing bridge: when a Steam update breaks the game-side bridge, the app
-  detects it and the REPAIR BRIDGE button fixes the installation without a full
-  reinstall.
-- Diagnostic logs plus one-click EXPORT LOGS and SEND BUG buttons, so bug
-  reports reach us with everything we need.
-- Startup health check confirms the bridge, driver, and game state every time
-  the app launches.
-- Session and lifetime stats with a SHARE button that saves a stat card image
-  to your Desktop.
-- Optional start-with-Windows toggle and custom keybinds (rebind the global
-  F-key hotkeys to whatever you like).
-- Minimize fixed: proper taskbar minimize in both layouts, with optional
-  minimize-to-tray.
-- 14 unlockable secret themes, including Spotify-listening tiers.
-- Achievements, daily streaks, collect sounds, and milestone celebrations.
-- Optional beta update channel for early builds.
+This build is unsigned. Windows may show an unknown publisher warning. Release checksums are included.
 
-## Features
+Uninstall through Windows Installed Apps. The uninstaller restores the backed up game assembly when the installed patch is still present. Existing third party drivers are left alone.
 
-- **Beat Spam** runs through the game-side background bridge, with ViGEm kept
-  as a legacy fallback.
-- **Auto Collect** reads both real chest-ready states every two seconds and
-  purchases a ready chest directly inside the game.
-- **Emoji Spam** invokes equipped reusable emotes directly inside the game.
-- **Cursorless automation:** Auto Collect and Emoji Spam never move the Windows
-  mouse or steal focus from another application.
-- **Fail-safe automation:** a live controller heartbeat disables the in-game
-  bridge within five seconds if AUTO BONGO V2 closes or stops responding.
-- **Single-instance protection** prevents duplicate controllers from competing.
-- **Full and compact layouts** with persistent preferences.
-- **Proper taskbar minimize** controls in both layouts.
-- **One-click update check** opens the official latest GitHub release.
-- **93 themes including 14 unlockable secret themes** across Signature,
-  Pastel, Grunge, Digital, Memes, Seasonal, and Secrets.
-- Per-theme fonts, shapes, textures, and ambient animation.
-- Four-times supersampled UI surfaces for clean anti-aliased curves.
-- Adjustable window transparency.
-- One-click Discord copy and Spotify access.
+## Credits
 
-## In-app preview
+Thank you Bela, daclumsyasian, LordErdbeere, Mitsu, Bulo4ka and Botani for requests, testing and reports.
 
-<p align="center">
-  <img src="assets/screenshots/v205-signature.png" width="24%" alt="AUTO BONGO V2 Obsidian Gold theme">
-  <img src="assets/screenshots/v205-riso-print.png" width="24%" alt="AUTO BONGO V2 Riso Print theme">
-  <img src="assets/screenshots/v205-vaporwave.png" width="24%" alt="AUTO BONGO V2 Vaporwave 95 theme">
-  <img src="assets/screenshots/v205-chrome.png" width="24%" alt="AUTO BONGO V2 Chrome Plate theme">
-</p>
-
-<p align="center"><i>Every theme now brings its own font, shapes, texture, and motion. These are four of the 93.</i></p>
-
-## Installation
-
-1. Close Bongo Cat.
-2. Extract the release ZIP.
-3. Double-click **`Install AUTO BONGO V2.bat`**.
-4. Approve the Windows administrator prompt.
-5. Launch **AUTO BONGO V2** from the new desktop or Start Menu shortcut.
-
-The installer automatically:
-
-- verifies every packaged file against the included SHA-256 manifest before
-  changing the system or game;
-- detects Bongo Cat across configured Steam libraries;
-- installs the ViGEm virtual-controller driver;
-- backs up the user's current Bongo Cat game assembly;
-- installs the cursorless automation bridge;
-- creates branded desktop and Start Menu shortcuts; and
-- registers AUTO BONGO V2 in Windows Installed Apps with a rollback uninstaller.
-
-## Important
-
-- Requires 64-bit Windows 10 or Windows 11, Steam, and Bongo Cat.
-- Enable **Controller Inputs** inside Bongo Cat for Beat Spam.
-- A Bongo Cat update may restore its game assembly. If AUTO BONGO V2 reports
-  **Bridge update required**, download the newest official release and rerun its
-  installer. It detects the newer clean assembly and refreshes the uninstall
-  backup safely.
-- This free community build is not code-signed. Windows may display an
-  unknown-publisher or SmartScreen warning. Release checksums are provided.
-
-## Uninstall
-
-Open **Start Menu → Triniidadii Productions → Uninstall AUTO BONGO V2**.
-
-The uninstaller restores the exact original Bongo Cat assembly saved during
-installation and removes the cursorless bridge, shortcuts, and application.
-
-## Special thanks
-
-- **[Bela](https://steamcommunity.com/profiles/76561198992897176)** for feature
-  requests that helped push the project beyond its original scope.
-- **[daclumsyasian](https://steamcommunity.com/profiles/76561199231027721)** for
-  being the first person to use the application and helping test it before the
-  original public release.
-- **[LordErdbeere](https://steamcommunity.com/id/lorderdbeere)** for reporting
-  post-update bugs and requesting proper full minimization.
-
-## Technology and licenses
-
-- [vgamepad](https://github.com/yannbouteiller/vgamepad) — MIT
-- [ViGEmBus](https://github.com/ViGEm/ViGEmBus) — BSD-3-Clause
-- [Mono.Cecil](https://www.mono-project.com/docs/tools+libraries/libraries/Mono.Cecil/) — MIT
-- Python, Tkinter, Pillow, pywin32, and PyInstaller
-
-Third-party notices are available in
-[`THIRD-PARTY-LICENSES.txt`](THIRD-PARTY-LICENSES.txt) and as `LICENSES.txt`
-inside every release.
+Third party notices are in [THIRD-PARTY-LICENSES.txt](THIRD-PARTY-LICENSES.txt) and the packaged `LICENSES.txt`.
 
 ## License
 
@@ -170,13 +60,3 @@ access, malware, surveillance, credential or data theft, fraud, sabotage, or
 interference with another person's devices, accounts, files, or services.
 Malicious use immediately terminates the license, leaves the responsible person
 solely liable, and may be reported to affected parties and law enforcement.
-
----
-
-<p align="center"><i>Made by Triniidadii Productions for the Bongo Cat community.</i></p>
-
-<!--
-Yo... why are you all the way down here, bro?
-Ain't shit in here. You GitHub lurkers really do read EVERYTHING lmfao.
-Since you made it this far: drink some water, collect your chests, and act like you never saw this.
--->
