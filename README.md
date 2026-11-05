@@ -1,19 +1,19 @@
 <p align="center"><img src="assets/auto-bongo-v2-icon.png" width="180" alt="AUTO BONGO"></p>
 
-# AUTO BONGO 2.0.8
+# AUTO BONGO 2.1.0
 
 Triniidadii Productions
 
 **[Download the latest Windows release](../../releases/latest)**
 
-Fresh Studio visuals and background bongos for the September 8 Bongo Cat update. Automation runs inside Bongo Cat through its game bridge. No virtual controller fallback or automated Windows keyboard and mouse input.
+Auto-Skin Exchanger, Battle Pass Auto-Claim and fresh Studio visuals. Automation runs inside Bongo Cat through its game bridge. No virtual controller fallback or automated Windows keyboard and mouse input.
 
-Thank you Botani for reporting the update issue and daclumsyasian for testing the new interface.
+Shoutout Lukas_Why for suggesting the new auto collection systems. Thank you Botani for reporting the update issue and daclumsyasian for testing the interface.
 
 ## Install or update
 
 1. Close Bongo Cat and AUTO BONGO.
-2. Download `AUTO-BONGO-V2.0.8-Windows-x64.zip` and extract it completely.
+2. Download `AUTO-BONGO-V2.1.0-Windows-x64.zip` and extract it completely.
 3. Read `README.txt`, then run `Install AUTO BONGO V2.bat`.
 4. Approve installation and open Bongo Cat and AUTO BONGO.
 
@@ -26,6 +26,8 @@ Beat automation, chest collection and equipped reusable emotes use the Bongo Cat
 Studio includes 14 distinct looks, collectible cosmetics, full and compact layouts, local share cards and opt in Spotify desktop listening rewards. Paused and skipped audio does not earn listening credit. Cosmetics belong to AUTO BONGO, not the game's inventory. Sharing rewards card creation, not verified referrals.
 
 The window follows normal Windows taskbar and stacking behavior. Keyboard shortcuts work while AUTO BONGO is focused, leaving other applications' keys available.
+
+Auto-Skin Exchanger keeps one of every skin and protects seasonal, event, collaboration, equipped and favorited items. Two copies supply one eligible spare. The game requires 10 eligible spares of matching quality per exchange. Battle Pass Auto-Claim collects earned rewards from owned passes without purchases. Both controls start off each launch under Inventory & Paw Pass.
 
 ## Help
 
